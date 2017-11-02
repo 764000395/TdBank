@@ -15,3 +15,13 @@ E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.exe
 E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.pdb
 E:\TdBank\TdBank\TdBank\obj\Debug\LoginWindow.g.cs
 E:\TdBank\TdBank\TdBank\obj\Debug\LoginWindow.baml
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Data.dll
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Data.Entity.EF5.dll
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Fabric.Plugin.dll
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Web.dll
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Data.xml
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Data.Entity.EF5.xml
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Data.Entity.EF6.xml
+E:\TdBank\TdBank\TdBank\bin\Debug\MySql.Web.xml
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.csproj.TdBank.exe.config

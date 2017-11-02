@@ -25,6 +25,8 @@ namespace TdBank
             InitializeComponent();
             //this.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             this.SourceInitialized += MainWindow_SourceInitialized;
+            Connect mycon = new Connect();
+            
         }
 
         private void MainWindow_SourceInitialized(object sender, EventArgs e)
