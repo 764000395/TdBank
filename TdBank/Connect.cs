@@ -14,7 +14,7 @@ namespace TdBank
     {
         
         public Connect() {
-            string constr = "Server=127.0.0.1;User Id=root;password=;Database=GoodPage";
+            string constr = "Server=174m1d5419.iask.in;port=35498;User Id=root;password=764000395;Database=GoodPage";
             MySqlConnection con = new MySqlConnection(constr);
             bool isConnectedOk = false;
             try
