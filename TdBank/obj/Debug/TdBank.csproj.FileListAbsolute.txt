@@ -1,0 +1,17 @@
+E:\TdBank\TdBank\TdBank\bin\Debug\TdBank.exe.config
+E:\TdBank\TdBank\TdBank\bin\Debug\TdBank.exe
+E:\TdBank\TdBank\TdBank\bin\Debug\TdBank.pdb
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.csprojResolveAssemblyReference.cache
+E:\TdBank\TdBank\TdBank\obj\Debug\MainWindow.g.cs
+E:\TdBank\TdBank\TdBank\obj\Debug\App.g.cs
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank_MarkupCompile.cache
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank_MarkupCompile.lref
+E:\TdBank\TdBank\TdBank\obj\Debug\MainWindow.baml
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.g.resources
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.Properties.Resources.resources
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.csproj.GenerateResource.Cache
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.csproj.CoreCompileInputs.cache
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.exe
+E:\TdBank\TdBank\TdBank\obj\Debug\TdBank.pdb
+E:\TdBank\TdBank\TdBank\obj\Debug\LoginWindow.g.cs
+E:\TdBank\TdBank\TdBank\obj\Debug\LoginWindow.baml
