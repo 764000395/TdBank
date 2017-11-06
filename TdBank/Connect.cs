@@ -12,25 +12,55 @@ namespace TdBank
 {
     class Connect
     {
-        
+        MySqlConnection con;
+        MySqlCommand cmd = null;
+        MySqlDataReader reader;
+        //连接数据库
         public Connect() {
-            string constr = "Server=174m1d5419.iask.in;port=35498;User Id=root;password=764000395;Database=GoodPage";
-            MySqlConnection con = new MySqlConnection(constr);
-            bool isConnectedOk = false;
+            string constr = "Server=174m1d5419.iask.in;port=35498;User Id=root;password=764000395;Database=TdBank";
+            con = new MySqlConnection(constr);
+            //bool isConnectedOk = false;
             try
             {
                 con.Open();
-                isConnectedOk = true;
+                
+                //isConnectedOk = true;
             }
             catch
             {
-                isConnectedOk = false;
+                //isConnectedOk = false;
                 MessageBox.Show("远程连接数据库失败!");
             }
             finally
             {
                 con.Clone();
             }
+        }
+
+        //关闭数据库连接
+        public void close() {
+            con.Close();
+        }
+
+        //验证登录
+        public int login(string username, string password) {
+            //查询到结果 result为user_id  查不到 为0
+            int result = 0;
+            string sb = "SELECT user_id FROM users WHERE username = ?username AND password = ?password";
+            
+            cmd = new MySqlCommand(sb, con);
+            cmd.Parameters.AddWithValue("?username", username);
+            cmd.Parameters.AddWithValue("?password", password);
+            reader = cmd.ExecuteReader();
+            if(reader.Read()) {
+                result = int.Parse(reader[0].ToString());
+            }
+            return result;
+        }
+
+        //注册
+        public void register( string []data ) {
+
         }
     }
 }

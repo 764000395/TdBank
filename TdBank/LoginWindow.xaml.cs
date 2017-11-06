@@ -42,9 +42,18 @@ namespace TdBank
         {
             var username = usernameText.Text;
             var password = passwordText.Password;
-            if (string.Equals(username, "764000395") && string.Equals(password, "ascexz")) {
+            Connect con = new Connect();
+            int result = con.login(username, password);
+            if (result != 0)
+            {
+                MainWindow.userId = result;
+                con.close();
                 this.status = 1;
                 this.Close();
+            }
+            else {
+                MessageBox.Show("卡号或密码错误");
+                con.close();
             }
         }
 

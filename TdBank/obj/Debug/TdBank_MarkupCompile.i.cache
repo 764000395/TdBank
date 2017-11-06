@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\TdBank\TdBank\obj\Debug\
+E:\TdBank\TdBank\TdBank\obj\Debug\
 TdBank
 none
 false
 DEBUG;TRACE
-E:\TdBank\TdBank\App.xaml
-22037783069
+E:\TdBank\TdBank\TdBank\App.xaml
+31825993760
 
-11480682080
-18-2095659254
-LoginWindow.xaml;MainWindow.xaml;
+12-1031071969
+18572940105
+LoginWindow.xaml;MainWindow.xaml;Register.xaml;
 
-True
+False
 

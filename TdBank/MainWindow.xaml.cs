@@ -20,6 +20,7 @@ namespace TdBank
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static int userId;
         public MainWindow()
         {
             InitializeComponent();
