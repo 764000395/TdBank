@@ -27,6 +27,7 @@ namespace TdBank
             //this.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             this.SourceInitialized += MainWindow_SourceInitialized;
             Connect mycon = new Connect();
+            fr.Source = new Uri("http://localhost");
             
         }
 

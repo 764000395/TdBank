@@ -60,7 +60,8 @@ namespace TdBank
         //注册
         private void Register_Click(object sender, RoutedEventArgs e)
         {
-            
+            Register r = new Register();
+            r.Show();
         }
 
         //登录窗口关闭

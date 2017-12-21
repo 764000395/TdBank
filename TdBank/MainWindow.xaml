@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TdBank"
         mc:Ignorable="d"
-        Title="天地银行" Height="350" Width="525">
+        Title="王朝日报" Height="1000" Width="1500">
     <Grid>
-        
+        <Frame Name="fr">
+            
+        </Frame> 
     </Grid>
 </Window>

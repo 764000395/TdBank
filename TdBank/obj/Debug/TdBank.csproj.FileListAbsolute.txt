@@ -52,3 +52,5 @@ E:\TdBank\TdBank\obj\Debug\TdBank.csproj.GenerateResource.Cache
 E:\TdBank\TdBank\obj\Debug\TdBank.csproj.CoreCompileInputs.cache
 E:\TdBank\TdBank\obj\Debug\TdBank.exe
 E:\TdBank\TdBank\obj\Debug\TdBank.pdb
+E:\TdBank\TdBank\TdBank\obj\Debug\Register.g.cs
+E:\TdBank\TdBank\TdBank\obj\Debug\Register.baml

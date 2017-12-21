@@ -17,7 +17,8 @@ namespace TdBank
         MySqlDataReader reader;
         //连接数据库
         public Connect() {
-            string constr = "Server=174m1d5419.iask.in;port=35498;User Id=root;password=764000395;Database=TdBank";
+            yzy_1610121031.SomeString someStr = new yzy_1610121031.SomeString();
+            string constr = someStr.getMySqlStr();
             con = new MySqlConnection(constr);
             //bool isConnectedOk = false;
             try

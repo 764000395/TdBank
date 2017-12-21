@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TdBank"
         mc:Ignorable="d"
-        Title="天地银行用户登录" Height="300" Width="500">
+        Title="王朝日报用户登录" Height="300" Width="500">
     <Grid>
         <Label Content="用户名：" HorizontalAlignment="Left" Margin="100,46,0,0" VerticalAlignment="Top" />
         <TextBox x:Name="usernameText" HorizontalAlignment="Left" Height="25" Margin="158,46,0,0" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
